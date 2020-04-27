@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 
-/*navbar*/
+
 nav{
     display: flex;
     background-color: rgba(2, 20, 19, 0.822);
@@ -41,7 +41,7 @@ nav ul li a:hover{
     color: rgb(3, 3, 3);
     
 }
-/* Hamburger Menu */
+
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -49,7 +49,7 @@ nav ul li a:hover{
     justify-content: space-between;
     position: relative;
 }
-/* hamburger menu animation */
+
 
 .menu-toggle span:nth-child(2){
     transform-origin: 0 0;
@@ -102,9 +102,7 @@ nav ul li a:hover{
 }
 
 
-/* Responsive Breakpoint */
 
-/* ukuran tablet */
 @media screen and (max-width: 768px){
     nav ul {
         width: 50%;
